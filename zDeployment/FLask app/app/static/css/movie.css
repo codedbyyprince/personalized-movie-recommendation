@@ -113,6 +113,25 @@
     line-height: 1.8;
     color: var(--text-secondary);
     max-width: 800px;
+    margin: 0;
+}
+
+.movie-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.movie-meta-item {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.65rem 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    font-weight: 600;
 }
 
 .movie-details h3 {
@@ -258,6 +277,10 @@
 
     .movie-details {
         align-items: center;
+    }
+
+    .movie-meta {
+        justify-content: center;
     }
 
     .movie-details h3 {
