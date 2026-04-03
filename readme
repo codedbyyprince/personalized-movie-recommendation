@@ -1,0 +1,110 @@
+# 🎬 Personalized Movie Picks — Unsupervised ML Recommender
+
+Personalized Movie Picks is an **Unsupervised Machine Learning project** that recommends movies similar to the one you love.  
+The goal is simple: help you find movies that match your taste and recreate the same feeling again.
+
+---
+
+## 🚀 Features
+- Suggests movies similar to a selected film  
+- Uses unsupervised learning (KNN + Embeddings)  
+- Cleaned, extracted, and processed 8+ movie features  
+- Fast similarity-based recommendations  
+- Fully deployed using **Flask + Render**
+
+---
+
+## 🧠 How It Works
+The system analyzes movie attributes (genres, companies, keywords, cast, etc.) and generates embeddings to measure similarity between films.
+
+The recommendation pipeline includes:
+
+1. **Data Cleaning & Preprocessing**
+   - Handling missing values  
+   - Encoding multi-label features  
+   - Numerical scaling  
+
+2. **Feature Engineering**
+   - Genre vectors  
+   - Company categories  
+   - Keyword embeddings  
+   - Multi-feature similarity scoring  
+
+3. **Model Versions**
+   - **V1:** Simple KNN-based recommender  
+   - **V2:** Improved dataset + deeper EDA + better feature extraction  
+   - **V3:** Embedding-based similarity + Flask deployment  
+
+---
+
+## 📚 Learnings From The Project
+Building this project taught me:
+- How to clean and preprocess real-world messy data  
+- Multiple unsupervised learning techniques  
+- How to design similarity-based systems  
+- How to deploy ML models using Flask  
+- Importance of iterating across multiple versions  
+
+---
+
+## 🔧 Tech Stack
+- **Python**
+- **Pandas / NumPy**
+- **Scikit-Learn**
+- **Embedding Models**
+- **Flask**
+- **Render (deployment)**
+
+---
+
+## 🌐 Live Demo
+🔗 **Deployed App:**  
+https://movie-recommender-deployed-1-2dzb.onrender.com
+
+---
+
+## 📦 Repository Structure
+project/
+│
+├── static/ # CSS, JS, assets
+├── templates/ # HTML templates
+├── model/ # Embeddings / model files
+├── app.py # Flask backend
+├── preprocessing.py # Cleaning + feature engineering
+├── recommender.py # Recommendation logic
+└── README.md # Project documentation
+
+yaml
+Copy code
+
+---
+
+## 🛠 How to Run Locally
+git clone https://github.com/codedbyyprince/personalized-movie-recommendation.git
+cd personalized-movie-recommendation
+pip install -r requirements.txt
+python app.py
+
+yaml
+Copy code
+Visit: `http://localhost:5000`
+
+---
+
+## 📌 Future Improvements
+- Add user rating-based recommendations  
+- Improve visualization of similarity scores  
+- Add more datasets (TV shows, anime, etc.)  
+- Build an API version for external use  
+
+---
+
+## 🤝 Feedback & Contributions
+Open to all suggestions, improvements, and PRs.  
+If you have ideas to improve the model or UI, feel free to connect or create an issue.
+
+---
+
+## 📬 Contact
+**Prince**  
+GitHub: https://github.com/codedbyyprince  
