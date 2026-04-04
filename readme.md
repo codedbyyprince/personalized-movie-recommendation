@@ -5,6 +5,9 @@ A movie recommendation web application built with Flask. It shows movies organiz
 Built by **Prince Nagda**.
 
 ---
+**Live Demo:** [Personalized Movie Picks](https://mlwithprince-personalized-movie-picks.hf.space/)
+
+---
 
 ## How It Works
 
